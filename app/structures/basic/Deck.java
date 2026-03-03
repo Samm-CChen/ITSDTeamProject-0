@@ -8,6 +8,13 @@ public class Deck {
 
     private final List<Card> cards = new ArrayList<>();
 
+    public Deck() { }
+
+    // getter
+    public List<Card> getCards() {
+        return cards;
+    }
+
     // add one card to deck
     public void addCard(Card card){
         if (card == null) return;

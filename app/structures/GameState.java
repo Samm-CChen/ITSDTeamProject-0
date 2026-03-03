@@ -10,7 +10,7 @@ import structures.basic.AiPlayer;
 import structures.basic.Player;
 import structures.basic.Tile;
 import structures.basic.Unit;
-import  structures.basic.Avator;
+import  structures.basic.Avatar;
 /**
  * This class can be used to hold information about the on-going game.
  * Its created with the GameActor.
@@ -31,18 +31,10 @@ public class GameState {
 	public Player player1 = null;
 	public Player player2 = null;
 
-	public Avator avatar = null;      // p1 avatar on board
-	public Avator aiAvatar = null;    // p2 avatar on board
+	public Avatar avatar = null;      // p1 avatar on board
+	public Avatar aiAvatar = null;    // p2 avatar on board
 
 	public ArrayList<Unit> summonedUnits = new ArrayList<>();
-
-	public Deck player1Deck;
-	public Deck player2Deck;
-
-	public Hand player1Hand;
-	public Hand player2Hand;
-
-
 
 
 	// turn state

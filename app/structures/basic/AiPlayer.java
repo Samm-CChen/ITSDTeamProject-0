@@ -1,4 +1,8 @@
 package structures.basic;
 
-public class AiPlayer {
+
+public class AiPlayer extends  Player{
+    public AiPlayer(){
+        super();
+    }
 }
